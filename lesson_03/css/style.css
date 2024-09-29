@@ -1,0 +1,27 @@
+body h1,body h2{
+	color: red;
+}
+
+.info-block1 *{
+	color: rgb(34, 168, 150);
+}
+
+[class*="link"]{
+	color: rgb(17, 172, 17);
+}
+#nav{
+	color: rgb(12, 167, 167);
+}
+.info-block2__text > p{
+	color: rgb(255, 115, 0);
+}
+.info-block2__text p ~ p{
+	color: rgb(68, 0, 255);
+}
+
+.info-block3__text p + p{
+	color: rgb(227, 7, 235);
+}
+main .info-block4 .info-block4__list li{
+	color: rgb(8, 8, 83);
+}
