@@ -1,0 +1,99 @@
+
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@font-face {
+	font-family: 'DM Sans';
+	src: url('DMSans-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DM Sans';
+	src: url('DMSans-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DM Sans';
+	src: url('DMSans18pt-BoldItalic.woff2') format('woff2');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+.header {
+	font-family: 'DM Sans', sans-serif;
+
+}
+.header__title {
+	letter-spacing: 	40px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 70px;
+}
+.block-01 {
+	text-align: right;
+	font-family:"Work Sans" ,sans-serif;
+}
+.block-01__title {
+	text-decoration: line-through;
+	text-decoration-color: rgb(116, 116, 245);
+	color: #132238;
+	font-size: 38px;
+	font-weight: 600;
+	line-height: 50px;
+	
+}
+.block-01__text {
+	color: #556070;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+}
+.block-02 {
+	text-align: center;
+	font-family: 'DM Sans', sans-serif;
+}
+.block-02__title {
+	font-style: italic;
+	font-size: 88px;
+	font-weight: 700;
+	color: #1E1B39;
+}
+.block-02__text {
+	
+	line-height: 50px;
+	font-weight: 400;
+	font-size: 24px;
+	color: #474464;
+}
+.block-03 {
+	font-family: "Roboto", sans-serif;
+}
+.block-03__title {
+	text-decoration: underline;
+	text-decoration-style: double;
+	text-decoration-color: rgb(2, 97, 2);
+	color: #091133;
+	font-weight: 500;
+	font-size: 50px;
+	line-height: normal;
+}
+.block-03__text {
+	white-space: nowrap;
+	word-spacing: 26px;
+	line-height:#505F98;
+	font-size: 18px;
+	font-weight: 400;	
+	line-height: 60px;
+}
+.footer {
+	font-family: 'DM Sans', sans-serif;
+
+}
+.footer__text {
+	text-align: right;
+	text-transform: lowercase;
+}
