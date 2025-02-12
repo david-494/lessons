@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body {
+	font-family: "Oswald", serif;
+	height: 100%;
+}
+.header{
+	font-family: "Rubik Maps", serif;
+	text-align: center;
+	padding: 50px;
+	background-color: rgba(40, 41, 62, 1);
+	color: #fff;
+	font-size: 72px;
+	line-height: 1.1111111111111112;
+}
+.body__conteiner {
+	background-color: rgb(240, 176, 142);
+	max-width: 800px;
+	margin:auto;
+	padding: 100px 30px;
+}
+.body__image {
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	margin-bottom: 10px;
+}
+.body__image--border img{
+	border-radius: 5px;
+}
+.body__image img{
+	max-width: 500px;
+}
